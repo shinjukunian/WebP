@@ -1,7 +1,7 @@
 import XCTest
 
-import WebP_CocoaTests
+import WebP_Tests
 
 var tests = [XCTestCaseEntry]()
-tests += WebP_CocoaTests.allTests()
+tests += WebP_Tests.allTests()
 XCTMain(tests)
