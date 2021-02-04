@@ -33,7 +33,7 @@ let package = Package(
         .target(name: "ClibWebP",
                 dependencies: [],
                 path: "Sources/libWebP",
-                exclude: ["imageio","extras","examples","swig"],
+                exclude: ["imageio","extras","examples","swig","tests"],
                 sources: nil, publicHeadersPath: "src/webp",
                 cSettings: [.headerSearchPath(".")],
                 cxxSettings: nil,
